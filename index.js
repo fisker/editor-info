@@ -5,6 +5,12 @@ const editors = [
     constant: 'VSCODE',
     environmentKey: 'VSCODE_PORTABLE',
   },
+  {
+    name: 'Atom',
+    // https://flight-manual.atom.io/using-atom/sections/basic-customization/#custom-home-location-with-an-environment-variable
+    constant: 'ATOM',
+    environmentKey: 'ATOM_HOME',
+  },
 ]
 
 const info = {
