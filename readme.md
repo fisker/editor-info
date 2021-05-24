@@ -29,7 +29,7 @@ module.exports = {
   root: true,
   extends: ['@fisker'],
   rules: {
-    'prettier/prettier': isEditor ? 'off' : 'error',
+    'no-console': isEditor ? 'off' : 'error',
   },
 }
 ```
