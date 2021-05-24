@@ -38,6 +38,7 @@ module.exports = {
 
 | Name               | Constant      |
 | :----------------- | :------------ |
+| Atom               | editor.ATOM   |
 | Visual Studio Code | editor.VSCODE |
 
 ---
