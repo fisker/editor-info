@@ -13,18 +13,19 @@ const editors = [
   },
 ]
 
+const {name = '', constant: code} = {
+  ...editors.find(({environmentKey}) =>
+    Reflect.has(process.env, environmentKey)
+  ),
+}
+
 const info = {
-  name: '',
-  isEditor: false,
+  name,
+  isEditor: Boolean(name),
 }
 
-for (const {environmentKey, constant: code, name: editorName} of editors) {
-  if (Reflect.has(process.env, environmentKey)) {
-    info[code] = true
-    info.name = editorName
-    info.isEditor = true
-    break
-  }
+for (const {constant: editorCode} of editors) {
+  info[editorCode] = editorCode === code
 }
 
-export default info
+module.exports = info
