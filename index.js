@@ -1,3 +1,5 @@
+const process = require('process')
+
 const editors = [
   {
     name: 'Visual Studio Code',
