@@ -25,7 +25,7 @@ for (const editor of editors) {
 }
 
 const editor = editors.find(({environmentKey}) =>
-  Reflect.has(process.env, environmentKey)
+  Reflect.has(process.env, environmentKey),
 )
 
 if (editor) {
