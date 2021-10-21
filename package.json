@@ -67,7 +67,7 @@
     "del-cli": "4.0.1",
     "eslint": "8.0.1",
     "esm-utils": "2.0.0",
-    "husky": "7.0.2",
+    "husky": "7.0.4",
     "import-fresh": "3.3.0",
     "lint-staged": "11.2.3",
     "markdownlint-cli": "0.29.0",
