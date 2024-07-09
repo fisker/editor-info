@@ -1,6 +1,6 @@
 {
   "name": "editor-info",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get details about the current editor.",
   "homepage": "https://github.com/fisker/editor-info#readme",
   "bugs": {
