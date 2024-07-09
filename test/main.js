@@ -1,3 +1,4 @@
+const process = require('node:process')
 const test = require('ava')
 const importFresh = require('import-fresh')
 
